@@ -9,7 +9,7 @@ from crud_functions import get_all_products, is_included, add_user
 product_sq = get_all_products()
 
 
-api = '7526574587:AAE7qLFN3dMWVmXnlMULhqxDPKJjp2K52yY'
+api = ''
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
